@@ -7,26 +7,18 @@ const Project = (props) => {
         <h3 class="mb-0">{props.title}</h3>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-react"></i>
+            <i class={"fab fa-" + props.techStack}></i>
           </li>
         </ul>
         <p>{props.description}</p>
       </div>
-      <a
-        href={props.launchUrl}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <button class="btn-primary btn-lg code-button">
-          <i class="fa fa-rocket"></i> Launch
-        </button>
-      </a>
+        {props.launchable && <a href={props.launchUrl} target="_blank" rel="noreferrer">
+          <button class="btn-primary btn-lg code-button">
+            <i class="fa fa-rocket"></i> Launch
+          </button>
+        </a>}
       &ensp;
-      <a
-        href={props.codeUrl}
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={props.codeUrl} target="_blank" rel="noreferrer">
         <button class="btn-primary btn-lg code-button">
           <i class="fab fa-github"></i> Code
         </button>
