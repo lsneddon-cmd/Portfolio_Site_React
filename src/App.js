@@ -9,13 +9,13 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <div class="container-fluid p-0">
+      <div className="container-fluid p-0">
         <About />
-        <hr class="m-0" />
+        <hr className="m-0" />
         <Projects />
-        <hr class="m-0" />
+        <hr className="m-0" />
         <Skills />
-        <hr class="m-0" />
+        <hr className="m-0" />
         <Certifications />
       </div>
     </div>

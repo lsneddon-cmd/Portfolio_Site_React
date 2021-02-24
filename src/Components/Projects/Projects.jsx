@@ -41,20 +41,20 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <section class="resume-section" id="projects">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Projects</h2>
-        {projectsData.map(i => {
+    <section className="resume-section" id="projects">
+      <div className="resume-section-content">
+        <h2 className="mb-5">Projects</h2>
+        {projectsData.map((i) => {
           return (
             <Project
-          title={i.title}
-          description={i.description}
-          codeUrl={i.codeUrl}
-          launchUrl={i.launchUrl}
-          techStack={i.techStack[0]}
-          launchable={i.launchable}
-        />
-          )
+              title={i.title}
+              description={i.description}
+              codeUrl={i.codeUrl}
+              launchUrl={i.launchUrl}
+              techStack={i.techStack[0]}
+              launchable={i.launchable}
+            />
+          );
         })}
       </div>
     </section>
