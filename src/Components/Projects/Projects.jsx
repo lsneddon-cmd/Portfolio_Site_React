@@ -53,6 +53,7 @@ const Projects = () => {
               launchUrl={i.launchUrl}
               techStack={i.techStack[0]}
               launchable={i.launchable}
+              key={i.title}
             />
           );
         })}
