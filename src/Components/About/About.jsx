@@ -1,4 +1,5 @@
 import React from "react";
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 const About = () => {
   return (
@@ -16,40 +17,7 @@ const About = () => {
           A self taught Full Stack Developer proficient in a variety of
           technologies and programming languages.
         </p>
-        <div className="social-icons">
-          <a
-            className="social-icon"
-            href="https://www.linkedin.com/in/lsneddoncodes/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a
-            className="social-icon"
-            href="https://github.com/lsneddon-cmd"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-          <a
-            className="social-icon"
-            href="https://mobile.twitter.com/CodesLewis"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a
-            className="social-icon"
-            href="https://stackoverflow.com/users/story/12854901"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-stack-overflow"></i>
-          </a>
-        </div>
+        <SocialIcons />
       </div>
     </section>
   );
