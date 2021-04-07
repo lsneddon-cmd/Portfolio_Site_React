@@ -5,37 +5,37 @@ const projectsData = [
   {
     title: "Bake Buddy",
     description: "A conversion app for common baking ingredients.",
-    codeUrl: "https://github.com/lsneddon-cmd/Bake_Buddy_React",
+    codeUrl: "https://github.com/codeslewis/Bake_Buddy_React",
     launchable: true,
     launchUrl: "https://bake-buddy.netlify.app/",
     techStack: ["react"],
   },
   {
-    title: "Matrix Calculator",
-    description: `A special calculator that uses the command line interface to accept matrix input and carry out a variety of matrix related calculations This program supports; addition, multiplication, scalar multiplication, transposition, determinant and inverse.`,
+    title: "Recipes",
+    description: `Andriod recipe app. Utilises RecyclerView to display a list of recipes.`,
     codeUrl:
-      "https://github.com/lsneddon-cmd/MatrixCalculator/tree/master/src/com/lsneddon/matrixCalculator",
+      "https://github.com/codeslewis/Recipes/tree/master/app/src",
     launchable: false,
     launchUrl: null,
-    techStack: ["java"],
+    techStack: ["android", "kotlin"],
   },
   {
     title: "Battleships",
     description: "A Battleship game for terminal.",
     codeUrl:
-      "https://github.com/lsneddon-cmd/Battleship/tree/master/Battleship/task/src/battleship",
+      "https://github.com/codeslewis/Battleship/tree/master/Battleship/task/src/battleship",
     launchable: false,
     launchUrl: null,
     techStack: ["java"],
   },
   {
-    title: "Simple Banking System",
-    description: `A terminal banking app to generate new accounts with unique account numbers; validate access with unique PIN; and validate card number with the Luhn algorithm`,
+    title: "Bake Buddy Android",
+    description: `A baking ingredient conversion app. This Android app converts Imperial and US Legal baking ingredient measurements into the metric system.`,
     codeUrl:
-      "https://github.com/lsneddon-cmd/Simple_Banking_System/tree/master/Simple%20Banking%20System/task/src/banking",
+      "https://github.com/codeslewis/Bake_Buddy_Android/tree/master/app/src",
     launchable: false,
     launchUrl: null,
-    techStack: ["java"],
+    techStack: ["android", "java"],
   },
 ];
 
