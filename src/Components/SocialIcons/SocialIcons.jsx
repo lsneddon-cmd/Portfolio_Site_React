@@ -6,7 +6,7 @@ const socialStuff = [
   {
     name: "Github",
     iconName: "github",
-    targetUrl: "https://github.com/lsneddon-cmd",
+    targetUrl: "https://github.com/codeslewis",
   },
   {
     name: "LinkedIn",
