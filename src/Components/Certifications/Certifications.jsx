@@ -6,8 +6,6 @@ const Certifications = () => {
       <div className="resume-section-content">
         <h2 className="mb-5">Accreditation</h2>
 
-        <ul>
-          <li className="cert-list-item">
             <p>
               Browse my Pluralsight Skill IQ scores from my{" "}
               <a
@@ -19,8 +17,6 @@ const Certifications = () => {
               </a>{" "}
               Developer Story page
             </p>
-          </li>
-        </ul>
       </div>
     </section>
   );
