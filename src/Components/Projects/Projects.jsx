@@ -3,12 +3,20 @@ import Project from "./Project";
 
 const projectsData = [
   {
+    title: "Minesweeper",
+    description: "Command Line Minesweeper game",
+    codeUrl: "https://github.com/codeslewis/Minesweeper/tree/master/Minesweeper/task/src/minesweeper",
+    launchable: false,
+    launchUrl: null,
+    techStack: ["kotlin"],
+  },
+  {
     title: "Bake Buddy",
     description: "A conversion app for common baking ingredients.",
-    codeUrl: "https://github.com/codeslewis/Bake_Buddy_React",
+    codeUrl: "https://github.com/codeslewis/Baking_Conversions",
     launchable: true,
     launchUrl: "https://bake-buddy.netlify.app/",
-    techStack: ["react"],
+    techStack: ["react", "js"],
   },
   {
     title: "Recipes",
@@ -51,7 +59,7 @@ const Projects = () => {
               description={i.description}
               codeUrl={i.codeUrl}
               launchUrl={i.launchUrl}
-              techStack={i.techStack[0]}
+              techStack={i.techStack}
               launchable={i.launchable}
               key={i.title}
             />
