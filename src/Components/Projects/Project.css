@@ -1,0 +1,15 @@
+.card {
+    min-width: 300px;
+    margin: 5rem;
+    box-shadow: 5px 5px 10px 0px
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    margin-left: 5px;
+    margin-bottom: 15px;
+}

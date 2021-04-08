@@ -6,17 +6,17 @@ const Certifications = () => {
       <div className="resume-section-content">
         <h2 className="mb-5">Accreditation</h2>
 
-            <p>
-              Browse my Pluralsight Skill IQ scores from my{" "}
-              <a
-                href="https://stackoverflow.com/users/story/12854901"
-                target="_blank"
-                rel="noreferrer"
-              >
-                stack overflow
-              </a>{" "}
-              Developer Story page
-            </p>
+        <p>
+          Browse my Pluralsight Skill IQ scores from my{" "}
+          <a
+            href="https://stackoverflow.com/users/story/12854901"
+            target="_blank"
+            rel="noreferrer"
+          >
+            stack overflow
+          </a>{" "}
+          Developer Story page
+        </p>
       </div>
     </section>
   );

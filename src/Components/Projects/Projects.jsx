@@ -5,7 +5,8 @@ const projectsData = [
   {
     title: "Minesweeper",
     description: "Command Line Minesweeper game",
-    codeUrl: "https://github.com/codeslewis/Minesweeper/tree/master/Minesweeper/task/src/minesweeper",
+    codeUrl:
+      "https://github.com/codeslewis/Minesweeper/tree/master/Minesweeper/task/src/minesweeper",
     launchable: false,
     launchUrl: null,
     techStack: ["kotlin"],
@@ -21,8 +22,7 @@ const projectsData = [
   {
     title: "Recipes",
     description: `Andriod recipe app. Utilises RecyclerView to display a list of recipes.`,
-    codeUrl:
-      "https://github.com/codeslewis/Recipes/tree/master/app/src",
+    codeUrl: "https://github.com/codeslewis/Recipes/tree/master/app/src",
     launchable: false,
     launchUrl: null,
     techStack: ["android", "kotlin"],
@@ -52,19 +52,21 @@ const Projects = () => {
     <section className="resume-section" id="projects">
       <div className="resume-section-content">
         <h2 className="mb-5">Projects</h2>
-        {projectsData.map((i) => {
-          return (
-            <Project
-              title={i.title}
-              description={i.description}
-              codeUrl={i.codeUrl}
-              launchUrl={i.launchUrl}
-              techStack={i.techStack}
-              launchable={i.launchable}
-              key={i.title}
-            />
-          );
-        })}
+        <div className="card-deck">
+          {projectsData.map((i) => {
+            return (
+              <Project
+                title={i.title}
+                description={i.description}
+                codeUrl={i.codeUrl}
+                launchUrl={i.launchUrl}
+                techStack={i.techStack}
+                launchable={i.launchable}
+                key={i.title}
+              />
+            );
+          })}
+        </div>
       </div>
     </section>
   );
