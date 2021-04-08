@@ -39,6 +39,8 @@ const Project = (props) => {
                        alt=""/>
                 );
                 break;
+              default:
+                image = null
             }
             return (
               <li className="list-inline-item">
