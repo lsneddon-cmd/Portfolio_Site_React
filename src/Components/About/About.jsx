@@ -1,5 +1,6 @@
 import React from "react";
 import SocialIcons from "../SocialIcons/SocialIcons";
+import "./About.css"
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       <div className="resume-section-content">
         <h1 className="mb-0">Lewis</h1>
         <h1 className="mb-0">
-          <span className="text-primary">Sneddon</span>
+          Sneddon
         </h1>
         <div className="subheading mb-5">
           Software Developer ·
