@@ -1,10 +1,9 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar"
 import "./NavBar.css"
 
 const NavBar = () => {
   return (
-    <Navbar className="navbar navbar-expand-lg fixed-top" id="sideNav">
+    <nav className="navbar navbar-expand-lg fixed-top" id="sideNav">
       <a className="navbar-brand js-scroll-trigger" href="#page-top">
         <span className="d-none d-lg-block">
           <img
@@ -49,7 +48,7 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-    </Navbar>
+    </nav>
   );
 };
 
