@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project";
-import { projectsData, webProjects, mobileProjects, terminalProjects } from "../../data/projectInfo";
+import { webProjects, mobileProjects, terminalProjects } from "../../data/projectInfo";
 import { Tabs, Tab } from "react-bootstrap";
 
 const Projects = () => {
