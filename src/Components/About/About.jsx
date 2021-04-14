@@ -1,15 +1,13 @@
 import React from "react";
 import SocialIcons from "../SocialIcons/SocialIcons";
-import "./About.css"
+import "./About.css";
 
 const About = () => {
   return (
     <section className="resume-section" id="about">
       <div className="resume-section-content">
         <h1 className="mb-0">Lewis</h1>
-        <h1 className="mb-0">
-          Sneddon
-        </h1>
+        <h1 className="mb-0">Sneddon</h1>
         <div className="subheading mb-5">
           Software Developer ·
           <a href="mailto:lewis@lewiscodes.io">lewis@lewiscodes.io</a>

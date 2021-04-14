@@ -11,24 +11,15 @@ const Skills = () => {
         <ul className="list-inline dev-icons">
           <li className="list-inline-item">
             {/* Kotlin */}
-            <img
-              src={iconSrc["kotlin"]}
-              alt="Kotlin logo"
-            />
+            <img src={iconSrc["kotlin"]} alt="Kotlin logo" />
           </li>
           <li className="list-inline-item">
             {/* Java */}
-            <img
-              src={iconSrc["java"]}
-              alt="Java logo"
-            />
+            <img src={iconSrc["java"]} alt="Java logo" />
           </li>
           <li className="list-inline-item">
             {/* JavaScript */}
-            <img
-              src={iconSrc["js"]}
-              alt="JavaScript logo"
-            />
+            <img src={iconSrc["js"]} alt="JavaScript logo" />
           </li>
         </ul>
 
@@ -36,24 +27,15 @@ const Skills = () => {
         <ul className="list-inline dev-icons">
           <li className="list-inline-item">
             {/* Android */}
-            <img
-              src={iconSrc["android"]}
-              alt="Android logo"
-            />
+            <img src={iconSrc["android"]} alt="Android logo" />
           </li>
           <li className="list-inline-item">
             {/* React */}
-            <img
-              src={iconSrc["react"]}
-              alt="React logo"
-            />
+            <img src={iconSrc["react"]} alt="React logo" />
           </li>
           <li className="list-inline-item">
             {/* Node */}
-            <img
-              src={iconSrc["node"]}
-              alt="Node logo"
-            />
+            <img src={iconSrc["node"]} alt="Node logo" />
           </li>
         </ul>
       </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import Project from "./Project";
-import { webProjects, mobileProjects, terminalProjects } from "../../data/projectInfo";
+import {
+  webProjects,
+  mobileProjects,
+  terminalProjects,
+} from "../../data/projectInfo";
 import { Tabs, Tab } from "react-bootstrap";
 
 const Projects = () => {
@@ -44,7 +48,7 @@ const Projects = () => {
               })}
             </div>
           </Tab>
-          <Tab eventKey="Mobile" title="Mobile" >
+          <Tab eventKey="Mobile" title="Mobile">
             <div className="card-deck">
               {mobileProjects.map((i) => {
                 return (
@@ -61,15 +65,7 @@ const Projects = () => {
               })}
             </div>
           </Tab>
-          <Tab eventKey="Desktop" title="Desktop" >
-
-          </Tab>
         </Tabs>
-
-
-
-
-
       </div>
     </section>
   );

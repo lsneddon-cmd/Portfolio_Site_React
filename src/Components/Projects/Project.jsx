@@ -12,44 +12,19 @@ const Project = (props) => {
             let image;
             switch (i) {
               case "kotlin":
-                image = (
-                  <img
-                    src={iconSrc["kotlin"]}
-                    alt="Kotlin logo"
-                  />
-                );
+                image = <img src={iconSrc["kotlin"]} alt="Kotlin logo" />;
                 break;
               case "js":
-                image = (
-                  <img
-                    src={iconSrc["js"]}
-                    alt="JavaScript logo"
-                  />
-                );
+                image = <img src={iconSrc["js"]} alt="JavaScript logo" />;
                 break;
               case "java":
-                image = (
-                  <img
-                    src={iconSrc["java"]}
-                    alt="Java logo"
-                  />
-                );
+                image = <img src={iconSrc["java"]} alt="Java logo" />;
                 break;
               case "android":
-                image = (
-                  <img
-                    src={iconSrc["android"]}
-                    alt="Android logo"
-                  />
-                );
+                image = <img src={iconSrc["android"]} alt="Android logo" />;
                 break;
               case "react":
-                image = (
-                  <img
-                    src={iconSrc["react"]}
-                    alt="React logo"
-                  />
-                );
+                image = <img src={iconSrc["react"]} alt="React logo" />;
                 break;
               default:
                 image = null;
