@@ -74,6 +74,24 @@ export const terminalProjects = [
     launchUrl: null,
     techStack: ["java"],
   },
+  {
+    title: "Matrix Calculator",
+    description: "Performs math operations on numeric matrices",
+    codeUrl:
+      "https://github.com/codeslewis/MatrixCalculator",
+    launchable: false,
+    launchUrl: null,
+    techStack: ["java"],
+  },
+  {
+    title: "Noughts and Crosses",
+    description: "An interactive game for one or two players",
+    codeUrl:
+      "https://github.com/codeslewis/Tic-Tac-Toe_with_AI/tree/master/Tic-Tac-Toe%20with%20AI/task/src/tictactoe",
+    launchable: false,
+    launchUrl: null,
+    techStack: ["java"],
+  },
 ];
 
 export const mobileProjects = [
