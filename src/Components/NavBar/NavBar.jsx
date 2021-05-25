@@ -22,7 +22,7 @@ const NavBar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
@@ -32,6 +32,11 @@ const NavBar = () => {
             </a>
           </li>
           <li className="nav-item">
+            <a className="nav-link js-scroll-trigger" href="#certifications">
+          Certifications
+          </a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#projects">
               Projects
             </a>
@@ -39,11 +44,6 @@ const NavBar = () => {
           {/*<li className="nav-item">*/}
           {/*  <a className="nav-link js-scroll-trigger" href="#skills">*/}
           {/*    Skills*/}
-          {/*  </a>*/}
-          {/*</li>*/}
-          {/*<li className="nav-item">*/}
-          {/*  <a className="nav-link js-scroll-trigger" href="#certifications">*/}
-          {/*    Accreditation*/}
           {/*  </a>*/}
           {/*</li>*/}
         </ul>
