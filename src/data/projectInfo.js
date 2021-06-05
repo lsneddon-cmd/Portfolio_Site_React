@@ -78,7 +78,7 @@ export const terminalProjects = [
     title: "Matrix Calculator",
     description: "Performs math operations on numeric matrices",
     codeUrl:
-      "https://github.com/codeslewis/MatrixCalculator",
+      "https://github.com/codeslewis/Matrix_Calculator",
     launchable: false,
     launchUrl: null,
     techStack: ["java"],
