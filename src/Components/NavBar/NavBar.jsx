@@ -32,20 +32,20 @@ const NavBar = () => {
             </a>
           </li>
           <li className="nav-item">
+            <a className="nav-link js-scroll-trigger" href="#projects">
+              Projects
+            </a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#certifications">
           Certifications
           </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#projects">
-              Projects
-            </a>
+           <a className="nav-link js-scroll-trigger" href="#skills">
+             Skills
+           </a>
           </li>
-          {/*<li className="nav-item">*/}
-          {/*  <a className="nav-link js-scroll-trigger" href="#skills">*/}
-          {/*    Skills*/}
-          {/*  </a>*/}
-          {/*</li>*/}
         </ul>
       </div>
     </nav>

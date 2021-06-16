@@ -4,6 +4,7 @@ import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 // import Skills from "./Components/Skills/Skills";
 import Certifications from "./Components/Certifications/Certifications";
+import Skills from "./Components/Skills/Skills";
 
 function App() {
   return (
@@ -11,10 +12,10 @@ function App() {
       <NavBar />
       <div className="container-fluid p-0">
         <About />
-        <Certifications />
         <Projects />
+        <Certifications />
         {/*<hr className="m-0" />*/}
-        {/*<Skills />*/}
+        <Skills />
         {/*<hr className="m-0" />*/}
       </div>
     </div>
