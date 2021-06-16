@@ -38,7 +38,7 @@ const Project = (props) => {
           {props.launchable && (
             <a href={props.launchUrl} target="_blank" rel="noreferrer">
               <button className="btn btn-primary btn-md">
-                <i className="fa fa-rocket"></i> Launch
+                <i className="fa fa-rocket"></i> Demo
               </button>
             </a>
           )}

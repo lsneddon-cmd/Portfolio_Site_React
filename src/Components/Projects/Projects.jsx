@@ -4,6 +4,7 @@ import {
   webProjects,
   mobileProjects,
   terminalProjects,
+  desktopProjects
 } from "../../data/projectInfo";
 import { Tabs, Tab } from "react-bootstrap";
 
@@ -13,7 +14,24 @@ const Projects = () => {
       <div className="resume-section-content">
         <h2 className="mb-5">Projects</h2>
 
-        <Tabs defaultActiveKey="Command Line">
+        <Tabs defaultActiveKey="Desktop">
+          <Tab eventKey="Desktop" title="Desktop">
+            <div className="card-deck">
+              {desktopProjects.map((i) => {
+                return (
+                  <Project
+                    title={i.title}
+                    description={i.description}
+                    codeUrl={i.codeUrl}
+                    launchUrl={i.launchUrl}
+                    techStack={i.techStack}
+                    launchable={i.launchable}
+                    key={i.title}
+                  />
+                );
+              })}
+            </div>
+          </Tab>
           <Tab eventKey="Command Line" title="Command Line">
             <div className="card-deck">
               {terminalProjects.map((i) => {

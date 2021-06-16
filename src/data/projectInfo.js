@@ -105,3 +105,15 @@ export const mobileProjects = [
     techStack: ["android", "java"],
   },
 ];
+
+export const desktopProjects = [
+  {
+    title: "Noughts and Crosses",
+    description: `Java Desktop Noughts and Crosses game using the swing library for GUI`,
+    codeUrl:
+      "https://github.com/codeslewis/DesktopNoughtsAndCrosses",
+    launchable: true,
+    launchUrl: "https://youtu.be/1PjB4aNRjBU",
+    techStack: ["java"],
+  },
+];
