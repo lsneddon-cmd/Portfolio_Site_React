@@ -53,6 +53,14 @@ export const webProjects = [
     launchUrl: "https://bake-buddy.netlify.app/",
     techStack: ["react", "js"],
   },
+  {
+    title: "Lewis Codes",
+    description: "This site",
+    codeUrl: "https://github.com/codeslewis/Portfolio_Site_React",
+    launchable: true,
+    launchUrl: "http://lewiscodes.io",
+    techStack: ["react", "js"],
+  },
 ];
 
 export const terminalProjects = [
