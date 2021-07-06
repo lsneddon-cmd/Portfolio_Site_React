@@ -1,12 +1,18 @@
 import React from "react";
 import Project from "./Project";
 import {
-  webProjects,
+//  webProjects,
   mobileProjects,
   terminalProjects,
   desktopProjects
 } from "../../data/projectInfo";
 import { Tabs, Tab } from "react-bootstrap";
+
+const webProjects = await getWebProjects();
+
+async function getWebProjects() {
+  return await fetch(https://5g624c23tc.execute-api.us-east-1.amazonaws.com/default/lewiscodes-projects-web);
+}
 
 const Projects = () => {
   return (
