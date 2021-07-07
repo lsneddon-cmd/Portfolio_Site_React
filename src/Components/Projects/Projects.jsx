@@ -11,7 +11,7 @@ import { Tabs, Tab } from "react-bootstrap";
  const API_WEB_PROJECTS_PATH = "https://5g624c23tc.execute-api.us-east-1.amazonaws.com/default/lewiscodes-projects-web"
 
 function getDesktopProjects() {
-  return fetch(API_WEB_PROJECTS_PATH)
+  return fetch(API_WEB_PROJECTS_PATH, {'mode': 'no-cors'})
     .then(data => data.json())
 }
 
