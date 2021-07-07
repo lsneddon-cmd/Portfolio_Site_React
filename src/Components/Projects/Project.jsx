@@ -26,6 +26,9 @@ const Project = (props) => {
               case "react":
                 image = <img src={iconSrc["react"]} alt="React logo" />;
                 break;
+              case "spring":
+                image = <img src={iconSrc["spring"]} alt="Spring logo" />;
+                break;
               default:
                 image = null;
             }

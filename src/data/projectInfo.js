@@ -46,6 +46,14 @@ export const projectsData = [
 
 export const webProjects = [
   {
+    title: "Web Quiz App",
+    description: "Backed of a Spring Web App to create and solve quizzes.",
+    codeUrl: "https://github.com/codeslewis/WebQuizApp",
+    launchable: false,
+    launchUrl: "",
+    techStack: ["java", "spring"],
+  },
+  {
     title: "Bake Buddy",
     description: "A conversion app for common baking ingredients.",
     codeUrl: "https://github.com/codeslewis/Baking_Conversions",

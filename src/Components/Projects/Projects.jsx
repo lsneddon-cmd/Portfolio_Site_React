@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Project from "./Project";
 import {
   webProjects,
@@ -8,7 +8,64 @@ import {
 } from "../../data/projectInfo";
 import { Tabs, Tab } from "react-bootstrap";
 
-const Projects = () => {
+// const API_PROJECTS_PATH = "http://localhost:5000/api/projects/"
+//
+// function getDesktopProjects() {
+//   return fetch(`${API_PROJECTS_PATH}desktop`)
+//     .then(data => data.json())
+// }
+//
+// function getMobileProjects() {
+//   return fetch(`${API_PROJECTS_PATH}mobile`)
+//     .then(data => data.json())
+// }
+//
+// function getWebProjects() {
+//   return fetch(`${API_PROJECTS_PATH}web`)
+//     .then(data => data.json())
+// }
+//
+// function getTerminalProjects() {
+//   return fetch(`${API_PROJECTS_PATH}terminal`)
+//     .then(data => data.json())
+// }
+//
+ const Projects = () => {
+//   const [desktopProjects, setDesktopProjects] = useState([])
+//   const [mobileProjects, setMobileProjects] = useState([])
+//   const [webProjects, setWebProjects] = useState([])
+//   const [terminalProjects, setTerminalProjects] = useState([])
+//
+//   useEffect(() => {
+//     let mounted = true;
+//     getDesktopProjects()
+//       .then(items => {
+//         if(mounted) {
+//           setDesktopProjects(items)
+//         }
+//       })
+//     getMobileProjects()
+//       .then(items => {
+//         if(mounted) {
+//           setMobileProjects(items)
+//         }
+//       })
+//     getWebProjects()
+//       .then(items => {
+//         if(mounted) {
+//           setWebProjects(items)
+//         }
+//       })
+//     getTerminalProjects()
+//       .then(items => {
+//         if(mounted) {
+//           setTerminalProjects(items)
+//         }
+//       })
+//     return () => mounted = false;
+//   }, [])
+
+
   return (
     <section className="resume-section" id="projects">
       <div className="resume-section-content">
