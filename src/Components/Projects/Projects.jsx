@@ -71,7 +71,24 @@ import { Tabs, Tab } from "react-bootstrap";
       <div className="resume-section-content">
         <h2 className="mb-5">Projects</h2>
 
-        <Tabs defaultActiveKey="Desktop">
+        <Tabs defaultActiveKey="Web">
+          <Tab eventKey="Web" title="Web">
+            <div className="card-deck">
+              {webProjects.map((i) => {
+                return (
+                  <Project
+                    title={i.title}
+                    description={i.description}
+                    codeUrl={i.codeUrl}
+                    launchUrl={i.launchUrl}
+                    techStack={i.techStack}
+                    launchable={i.launchable}
+                    key={i.title}
+                  />
+                );
+              })}
+            </div>
+          </Tab>
           <Tab eventKey="Desktop" title="Desktop">
             <div className="card-deck">
               {desktopProjects.map((i) => {
@@ -92,23 +109,6 @@ import { Tabs, Tab } from "react-bootstrap";
           <Tab eventKey="Command Line" title="Command Line">
             <div className="card-deck">
               {terminalProjects.map((i) => {
-                return (
-                  <Project
-                    title={i.title}
-                    description={i.description}
-                    codeUrl={i.codeUrl}
-                    launchUrl={i.launchUrl}
-                    techStack={i.techStack}
-                    launchable={i.launchable}
-                    key={i.title}
-                  />
-                );
-              })}
-            </div>
-          </Tab>
-          <Tab eventKey="Web" title="Web">
-            <div className="card-deck">
-              {webProjects.map((i) => {
                 return (
                   <Project
                     title={i.title}
