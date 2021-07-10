@@ -73,8 +73,8 @@ export const webProjects = [
     title: "Lewis Codes",
     description: "A serverless React SPA web app running on aws",
     codeUrl: "https://github.com/codeslewis/Portfolio_Site_React",
-    launchable: true,
-    launchUrl: "http://lewiscodes.io",
+    launchable: false,
+    launchUrl: "",
     techStack: ["react", "js", "node"],
   },
 ];
