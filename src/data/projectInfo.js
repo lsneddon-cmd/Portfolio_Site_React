@@ -48,6 +48,14 @@ export const webProjects = [
   {
     title: "Web Quiz App",
     description: "Backed of a Spring Web App to create and solve quizzes.",
+    codeUrl: "https://github.com/codeslewis/CodeShare",
+    launchable: false,
+    launchUrl: "",
+    techStack: ["java", "spring"],
+  },
+  {
+    title: "Code Share",
+    description: "A REST API and web application for sharing code snippets",
     codeUrl: "https://github.com/codeslewis/WebQuizApp",
     launchable: false,
     launchUrl: "",
