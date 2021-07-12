@@ -46,17 +46,17 @@ export const projectsData = [
 
 export const webProjects = [
   {
+    title: "Code Bank",
+    description: "A Full Stack web app where users can share code snippets to common algorithm problems",
+    codeUrl: "https://github.com/users/codeslewis/projects/1",
+    launchable: false,
+    launchUrl: "",
+    techStack: ["java", "spring", "react", "postgresql"],
+  },
+  {
     title: "Web Quiz App",
     description: "Backed of a Spring Web App to create and solve quizzes.",
     codeUrl: "https://github.com/codeslewis/CodeShare",
-    launchable: false,
-    launchUrl: "",
-    techStack: ["java", "spring"],
-  },
-  {
-    title: "Code Share",
-    description: "A REST API and web application for sharing code snippets",
-    codeUrl: "https://github.com/codeslewis/WebQuizApp",
     launchable: false,
     launchUrl: "",
     techStack: ["java", "spring"],
