@@ -48,7 +48,7 @@ export const webProjects = [
   {
     title: "Code Bank",
     description: "A Full Stack web app where users can share code snippets to common algorithm problems",
-    codeUrl: "https://github.com/users/codeslewis/projects/1",
+    codeUrl: "https://github.com/codeslewis/code-bank",
     launchable: false,
     launchUrl: "",
     techStack: ["java", "spring", "react", "postgresql"],
